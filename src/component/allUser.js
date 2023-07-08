@@ -1,7 +1,7 @@
 import React from "react";
-import User from "./component/user";
-import 'bootstrap/dist/css/bootstrap.min.css'
-
+import User from "./user";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import '../assets/style.css';
 function AllUser(props){
     return(
         <div className={'allUser mt-5 text-center m-auto mb-5 d-flex flex-wrap'}>

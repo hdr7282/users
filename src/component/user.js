@@ -1,6 +1,7 @@
 import React from "react";
 import Button from "./button";
 import 'bootstrap/dist/css/bootstrap.min.css'
+
 function User(props){
     return(
         <div className={'user m-auto mt-2 mb-2'}>
